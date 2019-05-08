@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: #C2F3D7;
+
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: blue;
+  font-family: algerian;
+  color: #F2F510;
+}
+
+nav{
+	font-family: Bernard MT Condensed;
+	margin-left: 30px;
+	padding: 5px;
+}
+a{
+	color: #0A1A55;
+}
+
+h2{
+	color: #0F5E0F;
+	font-family: Algerian;
+}
+
+p{
+	color: #092A53;
+	font-family: Lucida Bright;
+	text-align: justify;
+	margin: 0px 40px 0px 40px;
+
+}

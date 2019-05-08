@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>DISEÑO DE SITIO WEB</title>
+  <meta charset="utf-8"/>
+  <meta descripcion="ovi diseño de sitio web">
+  <link rel="stylesheet" href="css/OVI.css">
+</head>
+ 
+<body>
+<section id="contenido">
+  <header>
+     <img src="imagen/Captura.GIF" class="img">
+  </header>
+   <th clas="ovi">
+     <h1>OVI Diseño De Sitio WEB</h1>
+   </th>
+  
+  <nav>
+        <ul class="menu">
+          <li><a href="#">INICIO</a></li>
+          <li><a href="#">LECTURAS</a>
+            <ul>
+                <li><a href="GIT.html">GIT</a></li>
+                <li><a href="Githab.html">GITHAB</a></li> 
+                <li><a href="githabpag.html">GITHAB PAGES</a></li>
+                <li><a href="HTML5.html">HTML5</a></li>
+                <li><a href="CSS3.html">CSS3</a></li>
+            </ul>
+          </li>
+          <li><a href="#">MULTIMEDIA</a>
+            <ul>
+              <li><a href="contenido.html">Contenido</a></li>
+              <li><a href="videos.html">Videos</a></li>
+            </ul>
+          </li>
+          <li><a href="#">ACTIVIDADES</a>
+            <ul>
+              <li><a href="crucigrama.html">Crucigrama</a></li>
+              <li><a href="sopa-de-letras.html">Sopa de Letras</a></li>
+            </ul>
+         </li>
+          <li><a href="Autores.html">AUTORES</a></li>
+
+        </ul>
+  </nav>
+  <main id="cont">
+    <objetivo id="ob">
+      <h3>OBJETIVO</h3>
+      <p>Fundamentar teóricamente a los estudiantes sobre las generalidades básicas del Diseño Web para que puedan utilizar de forma correcta los lenguajes HTML5 y CSS3, aplicarlos en la construcción de Sitios Web e implementarlos a través de sistemas de control de versiones. Así mismo Ofrecer información para que el estudiante pueda operar y administrar sistemas de control de versiones como GIT o GITHUB.</p>
+    </objetivo>
+      
+    <especifico id="esp">
+      <h3>OBJETIVOS ESPECIFICOS</h3>
+      <p>
+        Objetivo específico 1:<br/> 
+        Brindar pautas para que le estudiante pueda evaluar y desarrollar Sitios Web que satisfagan las necesidades del usuario y dar recomendaciones concretas para su actualización.<br/> <br/>
+        Objetivo específico 2:<br/>  
+        Conocer el uso de GIT/GITHUB, HTML5 y CSS3 y su estructura, para que así lo ponga en práctica para el desarrollo de sitios web.
+
+      </p>
+    </especifico>  
+        
+    <contar id="con">
+      <h3>CONTADOR DE VISITAS</h3>
+       <div id="SeccionTwiter">      
+  <aside>
+    <menu id="SeccionUbicacion">
+        <div id="SubSeccionUbicacion">contador de visitas</div>
+
+       <script>yu=function(id){return document.getElementById(id);}
+          if(localStorage){
+          if(localStorage['visitas']==undefined){
+          localStorage['visitas']=0;
+          }var n=parseInt(localStorage['visitas']);localStorage['visitas']=1+n;
+          var num=localStorage['visitas'];
+          var mensaje=num + " visitas";
+          yu('SubSeccionUbicacion').innerHTML=mensaje;}
+        </script>
+        </div>
+ 
+        
+           <figure>
+           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+         
+               <a class="twitter-timeline" data-width="210" data-height="350" href="https://twitter.com/UniversidadUNAD">Tweets by UniversidadUNAD</a> 
+               <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>     
+            </figure>
+        </menu>
+
+        <!-- REDES SOCIALES PEGADA A LA PARED-->
+      <div class="UbicacionSocial">
+        <div class="social-bar">
+          <a href="https://www.facebook.com/UniversidadUNAD/" class="icon icon-facebook" target="_blank"></a>
+          <a href="https://twitter.com/universidadunad" class="icon icon-twitter" target="_blank"></a>
+          <a href="https://www.youtube.com/?gl=CO&hl=es-419" class="icon icon-youtube" target="_blank"></a>
+          <a href="https://www.instagram.com/universidadunad/?hl=es-la" class="icon icon-instagram" target="_blank"></a>
+      </div>
+  </aside>
+
+</div> 
+    </contar>
+  </main>
+
+  <footer>
+    <img src="imagen/logopi.png" class="pi">
+  
+    <h6><p>Sede nacional José Celestino Mutis: Calle 14 sur No. 14 - 23<br/>PBX: ( +57 1 ) 344 3700 Bogotá D.C., Colombia<br/>Línea nacional gratuita desde Colombia: 018000115223<br/>atención al usuario: atencionalusuario@unad.edu.co<br/>Institución de Educación Superior sujeta a inspección y vigilancia por el Ministerio de Educación Nacional
+    </p></h6>
+    
+  </footer>  
+
+
+</section>
+
+
+   
+
+</body>
+</html>
